@@ -1,10 +1,10 @@
 {
   "name": "testmatihenrypackage",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "prueba de un npm package",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "algo":"./index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MatiasCavallo/testPackage/issues"
   },
-  "homepage": "https://github.com/MatiasCavallo/testPackage#readme"
+  "homepage": "https://github.com/MatiasCavallo/testPackage#readme",
+  "dependencies": {
+    "jest": "^28.1.2"
+  }
 }
