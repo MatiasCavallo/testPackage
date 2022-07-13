@@ -2,10 +2,7 @@
   "name": "testmatihenrypackage",
   "version": "0.2.1",
   "description": "prueba de un npm package",
-  "main": "index.js",
-  "bin": {
-    "algo":"./index.js"
-  },
+  "main": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MatiasCavallo/testPackage.git"
